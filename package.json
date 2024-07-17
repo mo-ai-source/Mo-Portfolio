@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [],
-  "homepage": "https://codesandbox.io/s/new",
+ "homepage": ".",
   "main": "src/index.js",
   "dependencies": {
     "react": "16.8.6",
