@@ -42,7 +42,20 @@ const App = () => (
             </Tree>
 
             <Tree name="projects">
-                <Tree name="Text to Video Model" style={{ color: '#37ceff' }}/>
+                Tree name="Text to Video Model" >
+                <ProjectContent>
+                    <img src="texttovideo.gif" alt="Video Preview preview" />
+                    <div className="project-info">
+                        <h3>Text to Video Model for Animations and Short clips</h3>
+                        <p>A text-to-video from scratch, Able to produce video in 30fps for 2 secs and in animation style</p>
+                        <div className="tech-tags">
+                            {['Python', 'Computer Vision'].map((tech, index) => (
+                                <span key={index}>{tech}</span>
+                            ))}
+                        </div>
+                    </div>
+                    </ProjectContent>
+                </Tree>
                 <Tree name="Operating System" style={{ color: '#37ceff' }}/>
                 <Tree name="Carter Drill" style={{ color: '#37ceff' }} />
                 <Tree name="Coding Challenge">
