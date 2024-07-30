@@ -46,8 +46,8 @@ const App = () => (
                         <ProjectContent>
                             <img src="texttovideo.gif" alt="Space Invaders game preview" />
                             <div className="project-info">
-                                <h3>Space Invaders</h3>
-                                <p>Classic Space Invaders Implementation. Features multiple levels and power-ups.</p>
+                                <h3>Text To Video for Animations and Short Clips</h3>
+                                <p>A text-to-video model using latent space optimization for consistent, high-quality animations and clips.</p>
                                 <div className="tech-tags">
                                     {['Python', 'Computer Vision'].map((tech, index) => (
                                         <span key={index}>{tech}</span>
