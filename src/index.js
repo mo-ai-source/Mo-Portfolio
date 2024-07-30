@@ -42,7 +42,7 @@ const App = () => (
             </Tree>
 
             <Tree name="projects">
-                Tree name="Text to Video Model" >
+                <Tree name="Text to Video Model" >
                 <ProjectContent>
                     <img src="texttovideo.gif" alt="Video Preview preview" />
                     <div className="project-info">
